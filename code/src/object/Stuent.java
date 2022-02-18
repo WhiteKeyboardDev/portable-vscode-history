@@ -4,6 +4,23 @@ public class Stuent {
 	String name = "";
 	String num = "";
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	///getter, setter
 	public String getName() {
 		return name;
 	}
