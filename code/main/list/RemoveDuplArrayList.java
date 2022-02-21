@@ -22,8 +22,11 @@ public class RemoveDuplArrayList {
 		checkDu.add("2");
 		
 		
+		
+		
 		LinkedHashSet<String> hashSet = new LinkedHashSet<String>(checkDu);
 		
-		System.out.println(hashSet); // 중복된 2가 제거되고 "[1, 2]"가 출력
+		// 중복된 2가 제거되고 "[1, 2]"가 출력
+		log.debug("hashSet : "+ hashSet); 
 	}
 }
