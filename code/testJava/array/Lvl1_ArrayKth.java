@@ -8,7 +8,8 @@ import org.apache.logging.log4j.Logger;
 public class Lvl1_ArrayKth {
 
 	Logger log = LogManager.getLogger();
-
+	//https://programmers.co.kr/learn/courses/30/lessons/42748
+	//k번째 수
     public int[] solution(int[] array, int[][] commands) {
     	int[] answer = {commands.length}; //여기서 실수했네
 //    	int[] answer = new int[commands.length];
