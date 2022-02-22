@@ -1,11 +1,11 @@
-package lvl1;
+package array;
 
 import java.util.Arrays;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ArrayKth {
+public class Lvl1_ArrayKth {
 
 	Logger log = LogManager.getLogger();
 
@@ -26,6 +26,6 @@ public class ArrayKth {
 	public static void main(String[] args) {
 		int[] inputArray = { 1, 5, 2, 6, 3, 7, 4 };
 		int[][] inputCommand = { { 2, 5, 3 }, { 4, 4, 1 }, { 1, 7, 3 } };
-		new ArrayKth().solution(inputArray, inputCommand);
+		new Lvl1_ArrayKth().solution(inputArray, inputCommand);
 	}
 }
