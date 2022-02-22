@@ -3,13 +3,14 @@ package array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.IntStream;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Lvl2_ArrayPick {
 	
-	Logger log = LogManager.getLogger();
+	Logger log = LogManager.getLogger(this.getClass());
 	
 	//https://programmers.co.kr/learn/courses/30/lessons/42746
 	//가장 큰 수
@@ -22,8 +23,15 @@ public class Lvl2_ArrayPick {
         }
         
         Collections.sort(list, (a, b) -> {
-            String as = String.valueOf(a), bs = String.valueOf(b);
-            return -Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as));
+            String as = String.valueOf(a); log.debug(as);
+            String bs = String.valueOf(b); log.debug(bs);
+            
+            log.debug(Integer.parseInt(as + bs));
+            log.debug(Integer.parseInt(bs + as));
+            log.debug(Integer.compare(1, 2));
+            log.debug(Integer.compare(2, 1));
+            log.debug(-Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as)));
+            return -Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as)); 
         });
         
         StringBuilder sb = new StringBuilder();
