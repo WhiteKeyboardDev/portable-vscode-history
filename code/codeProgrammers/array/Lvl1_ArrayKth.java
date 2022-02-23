@@ -5,6 +5,12 @@ import java.util.Arrays;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+
+/**
+ * @author bfh3000@naver.com
+ * 1. 기본 배열은 Arrays로 가능하다.
+ * 2. copyofRange라는 함수도 제공하는구나 정도 알았다.
+ */
 public class Lvl1_ArrayKth {
 
 	Logger log = LogManager.getLogger();
