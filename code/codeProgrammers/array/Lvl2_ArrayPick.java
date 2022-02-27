@@ -17,6 +17,7 @@ import org.apache.logging.log4j.Logger;
  * 1. lamda 기본적으로 느낌.
  * 2. List 정렬은 Arrays가 아닌 Collections로 처리한다.
  * 3. sort에 인자값으로 인터페이스가 들어갈 수 있구나.
+ * 4. 람다식(Lambda)으로 Comparator 생성
  *
  */
 public class Lvl2_ArrayPick {
@@ -34,7 +35,9 @@ public class Lvl2_ArrayPick {
         }
         
         //Sorts the specified list according to the order induced by the specified comparator.
+        //https://codechacha.com/ko/java-sorting-comparator/ << "람다식(Lambda)으로 Comparator 생성"에 관한 것 있다.
         Collections.sort(list, (a, b) -> {
+        	log.debug("list : "+list);
         	log.debug("a : "+a);
 			log.debug("b : "+b);
 			log.debug("String.valueOf(a)=as : "+String.valueOf(a));
@@ -43,6 +46,7 @@ public class Lvl2_ArrayPick {
             String bs = String.valueOf(b);
             log.debug("-Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as)) : "+ -Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as)));
             System.out.println();
+
             return -Integer.compare(Integer.parseInt(as + bs), Integer.parseInt(bs + as)); 
         });
         
@@ -51,7 +55,7 @@ public class Lvl2_ArrayPick {
             sb.append(i);
         }
         answer = sb.toString();
-        if(answer.charAt(0) == '0') {
+        if(answer.charAt(0) == '0') { //이건 무슨 뜻이지?
             return "0";
         }else {
         	System.out.println("answer : "+ answer);
