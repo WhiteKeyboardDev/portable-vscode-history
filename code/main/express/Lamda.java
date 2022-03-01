@@ -15,12 +15,12 @@ public class Lamda {
 		return a > b ? a : b;
 	}
 	
-	 	(int a, int b) -> {
-	    	return a > b ? a : b;
-	    }
-	    
-	    (int a, int b) -> a > b ? a : b;
-	    		
-		(a, b) -> a > b ? a : b;
+//	 	(int a, int b) -> {
+//	    	return a > b ? a : b;
+//	    }
+//	    
+//	    (int a, int b) -> a > b ? a : b;
+//	    		
+//		(a, b) -> a > b ? a : b;
 	   
 }
