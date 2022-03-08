@@ -19,10 +19,6 @@ public class RemoveDuplArrayList {
 		}
 		checkDu.add("1");
 		checkDu.add("2");
-		checkDu.add("2");
-		
-		
-		
 		
 		LinkedHashSet<String> hashSet = new LinkedHashSet<String>(checkDu);
 		
