@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 public class RemoveDuplArrayList {
 	public static void main(String[] args) {
 		Logger log = LogManager.getLogger(RemoveDuplArrayList.class);
-		// ¸®½ºÆ® °´Ã¼¸»°í ´ÜÀÏÇü¿¡¼­¸¸ µÊ. Áßº¹ Á¦°Å
+		// ë¦¬ìŠ¤íŠ¸ ê°ì²´ë§ê³  ë‹¨ì¼í˜•ì—ì„œë§Œ ë¨. ì¤‘ë³µ ì œê±°
 		List<String> checkDu = new ArrayList<String>();
 		
 		for (int i = 0; i < args.length; i++) {
@@ -22,7 +22,7 @@ public class RemoveDuplArrayList {
 		
 		LinkedHashSet<String> hashSet = new LinkedHashSet<String>(checkDu);
 		
-		// Áßº¹µÈ 2°¡ Á¦°ÅµÇ°í "[1, 2]"°¡ Ãâ·Â
+		// ì¤‘ë³µëœ 2ê°€ ì œê±°ë˜ê³  "[1, 2]"ê°€ ì¶œë ¥
 		log.debug("hashSet : "+ hashSet); 
 	}
 }
