@@ -20,7 +20,6 @@ public class sizeSquare {
     		for (int i = 1; i <= count; i++) {
 				answer += i*price;
 			}
-    		
     		return (answer > money ?  answer - money : 0);
     	}
     }

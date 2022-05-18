@@ -1,5 +1,7 @@
 package tmp;
 
+import java.util.stream.IntStream;
+
 public class dotProduct {
 	public static void main(String[] args) {
 		int[] a = {1, 2, 3, 4};
@@ -15,10 +17,15 @@ public class dotProduct {
 	        for (int i = 0; i < a.length; i++) {
 				answer += a[i]*b[i];
 			}
+	        
 	        return answer;
 	    }
 	}
 	
 	//doc
-	
+	static class docSolution {
+		public static int solution(int[] a, int[] b) {
+			return IntStream.range(0, a.length).map(cnt -> a[cnt] * b[cnt]).sum();
+		}
+	}
 }
