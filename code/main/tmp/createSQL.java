@@ -35,8 +35,18 @@ public class createSQL {
 			script.add(index);
 			System.out.println("INSERT INTO `SAC_APPROVER_INFO` (`APPROVE_ID`, `APPROVER_STEP`, `APPROVER_ID`, `MANDATE_ID`, `APP_CHECK`) VALUES ('"+index+"', '1', 'dhlee3', '', '');");
 			System.out.println("INSERT INTO `SAC_APPROVE` (`APPROVE_ID`, `REQUEST_DT`, `REQUESTER_ID`, `APP_TYPE`, `USER_TASK_MAP`, `APP_STEP`, `APP_STATUS`, `APP_CHECK`) VALUES ('"+index+"', '"+index2+"', 'dhlee4', 'G', '!', 0, 'w', NULL);");
-			System.out.println("INSERT INTO `SAC_APPROVE_DOCUMENT` (`APPROVE_ID`, `SERVER_IP`, `SERVER_ID`, `SERVER_PWD`, `HOME_DIR`, `SHELL`, `REMOVE_HOME_DIR`, `PROTOCOLS`, `APP_REQUEST_DESC`, `APP_AUTH_ROLE`) VALUES ('"+index+"', '192.168.0.201', 'test20"+i+"b', '', '', '', '', 0, 'test20"+i+"b', NULL);");
-			System.out.println("INSERT INTO `SAC_APPROVE_DOCUMENT` (`APPROVE_ID`, `SERVER_IP`, `SERVER_ID`, `SERVER_PWD`, `HOME_DIR`, `SHELL`, `REMOVE_HOME_DIR`, `PROTOCOLS`, `APP_REQUEST_DESC`, `APP_AUTH_ROLE`) VALUES ('"+index+"', '192.168.0.205', 'test20"+i+"b', '', '', '', '', 0, 'test20"+i+"b', NULL);");
+			System.out.print("INSERT INTO `SAC_APPROVE_DOCUMENT` (`APPROVE_ID`, `SERVER_IP`, `SERVER_ID`, `SERVER_PWD`, `HOME_DIR`, `SHELL`, `REMOVE_HOME_DIR`, `PROTOCOLS`, `APP_REQUEST_DESC`, `APP_AUTH_ROLE`) VALUES");
+			
+			for (int j = 1; j < 101; j++) {
+				if(j==100) {
+					System.out.println(", ('"+index+"', '192.153.25."+j+"', 'ctast"+i+"b', '', '', '', '', 0, 'ctest"+i+"b', NULL);");
+				}else if(j==1) {
+					System.out.print("('"+index+"', '192.153.25."+j+"', 'ctast"+i+"b', '', '', '', '', 0, 'ctest"+i+"b', NULL)");
+				}
+				else {
+					System.out.print(", ('"+index+"', '192.153.25."+j+"', 'ctast"+i+"b', '', '', '', '', 0, 'ctest"+i+"b', NULL)");
+				}
+			}
 			
 			Thread.sleep(2);
 		}
