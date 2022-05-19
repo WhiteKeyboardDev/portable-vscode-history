@@ -14,5 +14,4 @@ public class Memo {
 	class Ma<T>{
 		T structrue;
 	}
-
 }
