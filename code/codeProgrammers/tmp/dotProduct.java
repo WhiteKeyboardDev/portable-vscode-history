@@ -1,4 +1,4 @@
-package tmp;
+package code.codeProgrammers.tmp;
 
 import java.util.stream.IntStream;
 

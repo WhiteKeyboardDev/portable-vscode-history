@@ -2,9 +2,20 @@ package tree;
 
 import java.util.ArrayList;
 
+import org.junit.runner.JUnitCore;
+
 //lvl3
 public class NodePick {
-	 public int solution(int n, int[][] edge) {
+	
+	public static void main(String[] args) {
+		int[][] a = {{3, 6}, {4, 3}, {3, 2}, {1, 3}, {1, 2}, {2, 4}, {5, 2}};
+		int tmp = new NodePick().solution(6, a);
+		System.out.println(tmp);
+		
+		JUnitCore.main();
+	}
+	
+	public int solution(int n, int[][] edge) {
         ArrayList<Integer>[] path = new ArrayList[n];
         ArrayList<Integer> bfs = new ArrayList<Integer>();
         int answer = 0;
@@ -44,10 +55,4 @@ public class NodePick {
 
         return answer;
     }
-	
-	public static void main(String[] args) {
-		int[][] a = {{3, 6}, {4, 3}, {3, 2}, {1, 3}, {1, 2}, {2, 4}, {5, 2}};
-		int tmp = new NodePick().solution(6, a);
-		System.out.println(tmp);
-	}
 }

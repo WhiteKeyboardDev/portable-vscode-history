@@ -11,8 +11,8 @@ public class Lamda {
 	    IntStream.range(0, 10).forEach(System.out::println);
 	}
 	
-	public int max(int a, int b) {
-		return a > b ? a : b;
+	public boolean max(int a, int b) {
+		return a > b ? true : false;
 	}
 	
 //	 	(int a, int b) -> {
