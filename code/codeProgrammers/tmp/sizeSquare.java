@@ -3,12 +3,16 @@ package code.codeProgrammers.tmp;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.Collections;
+
 public class sizeSquare {
     private static Logger log = LogManager.getLogger();
 
 
     public static void main(String[] args) {
         long tmp = mySolution.solution(3, 20, 4);
+
+        System.out.println(tmp);
         log.debug(tmp);
     }
 
