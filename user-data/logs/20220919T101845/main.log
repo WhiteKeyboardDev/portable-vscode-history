@@ -1,6 +1,0 @@
-[2022-09-19 10:18:45.914] [main] [info] update#setState idle
-[2022-09-19 10:18:47.090] [main] [info] Starting extension host with pid 29896 (fork() took 21 ms).
-[2022-09-19 10:19:15.915] [main] [info] update#setState checking for updates
-[2022-09-19 10:19:15.992] [main] [info] update#setState idle
-[2022-09-19 10:29:34.715] [main] [info] Waiting for extension host with pid 29896 to exit.
-[2022-09-19 10:29:34.739] [main] [info] Extension host with pid 29896 exited with code: 0, signal: null.

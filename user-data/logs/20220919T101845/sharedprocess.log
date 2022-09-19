@@ -1,8 +1,0 @@
-[2022-09-19 10:18:47.763] [sharedprocess] [info] Starting worker process with pid 29728 (type: fileWatcher, window: 1).
-[2022-09-19 10:28:05.963] [sharedprocess] [info] Getting Manifest... funkyremi.vscode-google-translate
-[2022-09-19 10:28:05.965] [sharedprocess] [info] Installing extension: funkyremi.vscode-google-translate
-[2022-09-19 10:28:07.947] [sharedprocess] [info] Downloaded extension: funkyremi.vscode-google-translate e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\user-data\CachedExtensionVSIXs\funkyremi.vscode-google-translate-1.4.13
-[2022-09-19 10:28:13.802] [sharedprocess] [info] Extracted extension to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\.43ab23db-edd3-4139-b413-d42776079235: funkyremi.vscode-google-translate
-[2022-09-19 10:28:13.817] [sharedprocess] [info] Renamed to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\funkyremi.vscode-google-translate-1.4.13
-[2022-09-19 10:28:13.821] [sharedprocess] [info] Extracting completed. funkyremi.vscode-google-translate
-[2022-09-19 10:28:13.822] [sharedprocess] [info] Extension installed successfully: funkyremi.vscode-google-translate
