@@ -1,0 +1,61 @@
+[2022-09-19 10:41:20.648] [sharedprocess] [info] Starting worker process with pid 8396 (type: fileWatcher, window: 1).
+[2022-09-19 10:43:33.650] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5952)
+    at a.onRawMessage (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5245)
+    at vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4526
+    at S.invoke (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at g.deliver (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at C.fire (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23639)
+[2022-09-19 10:46:05.601] [sharedprocess] [info] Getting Manifest... hancel.google-translate
+[2022-09-19 10:46:05.604] [sharedprocess] [info] Installing extension: hancel.google-translate
+[2022-09-19 10:46:07.123] [sharedprocess] [info] Downloaded extension: hancel.google-translate e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\user-data\CachedExtensionVSIXs\hancel.google-translate-1.2.6
+[2022-09-19 10:46:07.817] [sharedprocess] [info] Extracted extension to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\.ec3aa176-241d-4ca2-b006-ba9353a5a1e4: hancel.google-translate
+[2022-09-19 10:46:07.822] [sharedprocess] [info] Renamed to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\hancel.google-translate-1.2.6
+[2022-09-19 10:46:07.827] [sharedprocess] [info] Extracting completed. hancel.google-translate
+[2022-09-19 10:46:07.828] [sharedprocess] [info] Extension installed successfully: hancel.google-translate
+[2022-09-19 10:46:49.497] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5952)
+    at a.onRawMessage (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5245)
+    at vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4526
+    at S.invoke (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at g.deliver (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at C.fire (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23639)
+[2022-09-19 10:46:51.161] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5952)
+    at a.onRawMessage (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5245)
+    at vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4526
+    at S.invoke (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at g.deliver (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at C.fire (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23639)
+[2022-09-19 10:54:49.989] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5952)
+    at a.onRawMessage (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5245)
+    at vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4526
+    at S.invoke (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at g.deliver (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at C.fire (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23639)
+[2022-09-19 10:56:16.135] [sharedprocess] [info] Uninstalling extension: hancel.google-translate@1.2.6
+[2022-09-19 10:56:16.241] [sharedprocess] [info] Detected extension removed from another source hancel.google-translate
+[2022-09-19 10:56:16.507] [sharedprocess] [info] Successfully uninstalled extension: hancel.google-translate@1.2.6
+[2022-09-19 10:56:21.901] [sharedprocess] [info] Worker process with pid 8396 terminated normally (type: fileWatcher, window: 1).
+[2022-09-19 10:56:22.588] [sharedprocess] [info] Starting worker process with pid 29064 (type: fileWatcher, window: 1).
+[2022-09-19 10:56:27.257] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5952)
+    at a.onRawMessage (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5245)
+    at vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4526
+    at S.invoke (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at g.deliver (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at C.fire (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23639)
+[2022-09-19 10:57:08.919] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5952)
+    at a.onRawMessage (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5245)
+    at vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4526
+    at S.invoke (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at g.deliver (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at C.fire (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/e:/001-Dev/001-IDE/Visual%20Studio%20Code/001-Potable/VSCode-win32-x64-1.71.2/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23639)
