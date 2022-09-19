@@ -1,0 +1,40 @@
+{
+    "telemetry.machineId": "82fd086a107fa3346556a0eb2665cf41e22cfcba10e234bd7750f4d2e8e6eb24",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 256,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "E:\\001-Dev\\001-IDE\\Visual Studio Code\\001-Potable\\VSCode-win32-x64-1.71.2\\data\\user-data\\Backups\\1663550326225",
+            "uiState": {
+                "mode": 0,
+                "x": -1562,
+                "y": 149,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    }
+}

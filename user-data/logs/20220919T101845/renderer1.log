@@ -1,0 +1,1 @@
+[2022-09-19 10:22:00.579] [renderer1] [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
