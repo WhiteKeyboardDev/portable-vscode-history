@@ -1,0 +1,42 @@
+[Trace 02:33:42.117] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:42.120] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:42.122] TableOfContentsProvider: create - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:42.123] LinkProvider: compute - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:42.322] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:42.756] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Trace 02:33:42.767] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Debug 02:33:42.767] TableOfContentsProvider: create - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Trace 02:33:42.767] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Debug 02:33:42.786] LinkProvider: compute - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Trace 02:33:42.957] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:42.962] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Trace 02:33:43.157] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:43.357] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:43.557] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:43.757] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:43.958] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:44.158] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:44.358] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:44.558] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:44.759] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:44.840] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:44.960] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Debug 02:33:45.030] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:46.639] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:46.835] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:46.835] TableOfContentsProvider: create - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:46.841] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Trace 02:33:47.564] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:47.759] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:33:47.759] TableOfContentsProvider: create - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:47.766] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Debug 02:33:48.558] LinkProvider: compute - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:33:50.938] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Trace 02:33:51.139] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:46:45.574] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Debug 02:46:45.752] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/VT100toResult.md
+[Trace 02:46:48.401] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:46:48.581] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:46:49.039] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Trace 02:46:49.289] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md
+[Debug 02:46:49.477] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/VS_Code/markdown/plainTextTable.md

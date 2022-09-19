@@ -4,3 +4,7 @@
 [2022-09-19 11:19:38.127] [main] [info] update#setState idle
 [2022-09-19 11:30:06.866] [main] [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
 [2022-09-19 11:30:06.900] [main] [info] Extension host with pid 18912 exited with code: 0, signal: null.
+[2022-09-19 11:30:07.533] [main] [info] Starting extension host with pid 8028 (fork() took 20 ms).
+[2022-09-19 11:34:06.362] [main] [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+[2022-09-19 11:47:55.729] [main] [info] update#setState checking for updates
+[2022-09-19 11:47:55.972] [main] [info] update#setState idle

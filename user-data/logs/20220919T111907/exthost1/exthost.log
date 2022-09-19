@@ -13,3 +13,24 @@
 [2022-09-19 11:19:09.748] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl-recommender, startup: false, activationEvent: 'onStartupFinished'
 [2022-09-19 11:30:06.872] [exthost] [info] Extension host terminating: received terminate message from renderer
 [2022-09-19 11:30:06.881] [exthost] [info] Extension host with pid 18912 exiting with code 0
+[2022-09-19 11:30:08.135] [exthost] [info] Extension host with pid 8028 started
+[2022-09-19 11:30:08.135] [exthost] [info] Skipping acquiring lock for e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\user-data\User\workspaceStorage\bcd19d1958b64a75a20dc64c13fd875b.
+[2022-09-19 11:30:08.161] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-09-19 11:30:08.178] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-19 11:30:08.182] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-19 11:30:08.186] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-19 11:30:08.248] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-19 11:30:08.257] [exthost] [info] Eager extensions activated
+[2022-09-19 11:30:08.259] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 11:30:08.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 11:30:08.269] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl-recommender, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 11:30:08.279] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-09-19 11:30:10.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-19 11:30:10.109] [exthost] [info] ExtensionService#_doActivateExtension funkyremi.vscode-google-translate, startup: false, activationEvent: '*'
+[2022-09-19 11:30:18.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-19 11:30:18.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-19 11:30:18.456] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-19 11:30:32.627] [exthost] [info] ExtensionService#_doActivateExtension hediet.vscode-drawio, startup: false, activationEvent: 'onCustomEditor:hediet.vscode-drawio-text'
+[2022-09-19 11:33:41.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-09-19 11:33:41.791] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-09-19 11:33:42.171] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

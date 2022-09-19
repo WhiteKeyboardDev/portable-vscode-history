@@ -1,0 +1,708 @@
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .mode" ] }
+vscode <- drawio: { event: "log", body: [ "Document loaded, patching prototypes" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "configure" }
+vscode -> drawio: { action: "configure", config: { compressXml: false, customFonts: [  ], presetColors: [  ], customColorSchemes: [  ], ... } }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "init" }
+vscode -> drawio: { action: "load", xml: "<mxfile host="65bd71144e">
+    <diagram id="VX0UnecWJ3"+..., ... }
+vscode -> drawio: { action: "export", format: "xml", actionId: "0" }
+vscode <- drawio: { event: "log", body: [ "localStorage: set .drawio-config to {"language":"","cus"+... ] }
+vscode <- drawio: { event: "updateLocalStorage", newLocalStorage: { .drawio-config: "{"language":"","customFonts":[],"librari"+... } }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "linkSelectedNodeWithData" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "focus" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "menu-entries" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "LiveShare" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "load", pageVisible: false, translate: { x: 1118, y: 828 }, bounds: { x: 1132, y: 1037, ... }, ... }
+vscode <- drawio: { event: "export", pageVisible: false, translate: { x: 1118, y: 828 }, bounds: { x: 1132, y: 1037, ... }, ... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .scratchpad" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: set .drawio-config to {"language":"","cus"+... ] }
+vscode <- drawio: { event: "updateLocalStorage", newLocalStorage: { .drawio-config: "{"language":"","customFonts":[],"librari"+... } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 438, y: 636 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 438, y: 637 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 437, y: 644 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 437, y: 654 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 442, y: 670 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 446, y: 688 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 447, y: 697 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 449, y: 702 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 450, y: 705 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 451, y: 705 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 453, y: 705 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 454, y: 707 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 455, y: 707 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 462, y: 706 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 462, y: 704 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 463, y: 696 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 463, y: 677 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 459, y: 628 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 436, y: 525 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 360, y: 373 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 213, y: 176 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: 57, y: 115 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 33, y: 275 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 75, y: 326 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 104, y: 356 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 123, y: 371 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 133, y: 379 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 136, y: 381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 135, y: 380 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 121, y: 355 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 91, y: 304 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 62, y: 248 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 34, y: 192 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 18, y: 145 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 298, y: 462 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 307, y: 464 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 342, y: 479 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 358, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 354, y: 534 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 340, y: 571 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 325, y: 609 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 310, y: 642 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 307, y: 661 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 309, y: 668 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 312, y: 669 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 312, y: 670 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 312, y: 671 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 312, y: 673 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 312, y: 685 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 302, y: 698 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 357.5, y: 690 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 357.5, y: 692.5 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 357.5, y: 695 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 357.5, y: 700 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 362.5, y: 730 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 367.5, y: 762.5 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 372.5, y: 792.5 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 377.5, y: 815 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 385, y: 832.5 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 392.5, y: 840 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 397.5, y: 845 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 357.8571428571429, y: 759.5714285714284 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 355.95238095238096, y: 760.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 351.19047619047615, y: 762.4285714285713 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 351.19047619047615, y: 763.3809523809523 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 350.2380952380952, y: 763.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 335, y: 747.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 275, y: 676.7142857142856 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 195, y: 538.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 77.85714285714289, y: 327.19047619047615 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: 79.76190476190482, y: 137.66666666666663 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 66.42857142857133, y: 503.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 70.23809523809518, y: 510.04761904761904 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 75.95238095238096, y: 517.6666666666665 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 76.90476190476193, y: 517.6666666666665 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 76.90476190476193, y: 516.7142857142856 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 76.90476190476193, y: 511 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 75.95238095238096, y: 503.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 76.90476190476193, y: 440.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 82.61904761904748, y: 440.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 97.85714285714289, y: 443.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 131.19047619047615, y: 449.0952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 183.57142857142844, y: 460.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 248.33333333333326, y: 471.95238095238096 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 322.6190476190475, y: 485.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 397.8571428571429, y: 496.71428571428555 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 467.3809523809523, y: 499.57142857142844 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 536.9047619047619, y: 499.57142857142844 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 594.047619047619, y: 501.47619047619037 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 629.2857142857142, y: 502.42857142857133 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 652.1428571428571, y: 503.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 656.9047619047619, y: 503.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 595.952380952381, y: 506.2380952380952 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 595, y: 505.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 593.0952380952381, y: 502.42857142857133 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 587.3809523809523, y: 496.71428571428555 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 571.1904761904761, y: 484.33333333333326 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 538.8095238095239, y: 458.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 467.3809523809523, y: 394.80952380952385 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 363.57142857142844, y: 296.7142857142858 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 230.23809523809518, y: 160.52380952380952 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 104.5238095238094, y: 152.9047619047618 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 80.71428571428578, y: 204.33333333333326 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 70.23809523809518, y: 824.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 81.66666666666652, y: 825.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 98.80952380952385, y: 825.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 119.76190476190482, y: 825.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 142.61904761904748, y: 824.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 160.71428571428555, y: 824.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 170.23809523809518, y: 825.2857142857142 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 171.19047619047615, y: 825.2857142857142 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 171.19047619047615, y: 825.2857142857142 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: 172.1428571428571, y: 823.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 190.23809523809518, y: 798.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 250.23809523809518, y: 728.1428571428571 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 335, y: 663.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 467.3809523809523, y: 585.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 610.2380952380952, y: 501.47619047619037 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 726.4285714285713, y: 417.6666666666665 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 790.2380952380952, y: 362.42857142857133 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 829.2857142857142, y: 329.0952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 847.3809523809523, y: 311 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 849.2857142857142, y: 307.19047619047615 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 850.2380952380952, y: 306.2380952380952 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 855.952380952381, y: 301.47619047619037 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 866.4285714285713, y: 277.6666666666665 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 853.0952380952381, y: 234.80952380952374 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 818.8095238095236, y: 165.28571428571422 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 400.2857142857142, y: 147.1428571428571 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 401.2380952380952, y: 151.9047619047618 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 410.7619047619046, y: 219.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 423.1428571428571, y: 335.7142857142858 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 427.9047619047619, y: 450 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 447.9047619047619, y: 557.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 479.33333333333326, y: 626.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 508.8571428571429, y: 671.9047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 529.8095238095236, y: 709.047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 542.1904761904761, y: 744.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 548.8571428571429, y: 775.7142857142856 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 553.6190476190475, y: 804.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 555.5238095238094, y: 826.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 557.4285714285713, y: 839.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 557.4285714285713, y: 844.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 557.4285714285713, y: 848.0952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 557.4285714285713, y: 857.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 555.5238095238094, y: 866.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 554.5714285714284, y: 873.8095238095236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 552.6666666666665, y: 891.9047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 554.5714285714284, y: 913.8095238095236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 561.2380952380952, y: 926.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 565.047619047619, y: 928.0952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 566, y: 928.0952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 567.9047619047619, y: 929.047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 568.8571428571427, y: 930 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 569.8095238095236, y: 930.952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 569.8095238095236, y: 931.9047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 933.8095238095236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 937.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 941.4285714285713 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 944.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 945.2380952380952 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 946.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 947.1428571428571 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 948.0952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 950 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 951.9047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 953.8095238095236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 954.7619047619046 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 955.7142857142856 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 956.6666666666665 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 957.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 958.5714285714284 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 960.4761904761904 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 962.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 570.7619047619046, y: 963.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 386, y: 953.8095238095236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 386, y: 952.8571428571429 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 386, y: 946.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 392.6666666666665, y: 932.8571428571429 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 404.0952380952381, y: 910 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 417.42857142857133, y: 885.2380952380952 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 433.6190476190475, y: 854.7619047619046 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 442.19047619047615, y: 846.1904761904761 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 446, y: 842.3809523809523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 446, y: 841.4285714285713 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 446.95238095238096, y: 841.4285714285713 } }
+vscode <- drawio: { event: "save", pageVisible: false, translate: { x: 1354, y: 810 }, bounds: { x: 1436.4, y: 1069.95, ... }, ... }
+vscode <- drawio: { event: "cursorChanged", position: { x: 447.9047619047619, y: 841.4285714285713 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 448.8571428571429, y: 840.4761904761904 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 450.7619047619046, y: 839.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 453.6190476190475, y: 832.8571428571429 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 455.5238095238094, y: 821.4285714285713 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 455.5238095238094, y: 810.952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 454.57142857142844, y: 804.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 454.57142857142844, y: 799.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 453.6190476190475, y: 797.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 453.6190476190475, y: 795.7142857142856 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 454.57142857142844, y: 794.7619047619046 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 458.3809523809523, y: 794.7619047619046 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 465.04761904761904, y: 794.7619047619046 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 474.57142857142844, y: 796.6666666666665 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 489.8095238095236, y: 799.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 524.0952380952381, y: 805.2380952380952 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 578.3809523809523, y: 812.8571428571429 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 632.6666666666665, y: 817.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 670.7619047619046, y: 818.5714285714284 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 689.8095238095236, y: 818.5714285714284 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 690.7619047619046, y: 818.5714285714284 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 691.7142857142856, y: 818.5714285714284 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 691.7142857142856, y: 819.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 690.7619047619046, y: 819.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 688.8571428571427, y: 819.5238095238094 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 677.4285714285713, y: 817.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 655.5238095238094, y: 812.8571428571429 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 652.6666666666665, y: 811.9047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 651.7142857142856, y: 811.9047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 649.8095238095236, y: 811.9047619047619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 628.8571428571427, y: 808.0952380952381 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 610.7619047619046, y: 804.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 604.0952380952381, y: 803.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 603.1428571428571, y: 803.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 604.0952380952381, y: 803.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 609.8095238095236, y: 803.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 657.4285714285713, y: 803.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 724.0952380952381, y: 803.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 829.8095238095239, y: 795.7142857142856 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 966, y: 763.3333333333333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 1090.7619047619046, y: 737.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 1207.904761904762, y: 718.5714285714284 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 1283.1428571428569, y: 437.6190476190475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 1159.333333333333, y: 420.47619047619037 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 1001.238095238095, y: 394.7619047619048 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 826, y: 354.7619047619048 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 646, y: 304.2857142857142 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 490.7619047619046, y: 249.04761904761904 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 380.2857142857142, y: 211.9047619047618 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 298.3809523809523, y: 187.1428571428571 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 258.3809523809523, y: 174.7619047619047 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 235.5238095238094, y: 164.28571428571422 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 217.42857142857133, y: 155.71428571428567 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194.57142857142844, y: 144.28571428571422 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 170.7619047619046, y: 130.95238095238096 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -82, y: 174 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 7, y: 200 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 89, y: 222 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 143, y: 236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 168, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 175, y: 243 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 243 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 246 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 246 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 246 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 246 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 244 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 173, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 175, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 175, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 175, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 175, y: 248 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 175, y: 249 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 173, y: 248 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 247 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 245 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 241 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 241 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 241 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 241 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 241 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 241 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 243 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 241 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 243 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 243 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 176, y: 242 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: -81, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -89, y: 240 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -96, y: 238 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -106, y: 234 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: -59, y: 342 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 71, y: 389 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 167, y: 425 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 216, y: 440 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 229, y: 444 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 230, y: 444 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 488, y: 444 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 518, y: 450 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 641, y: 463 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 809, y: 465 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 990, y: 452 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 1187, y: 427 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .mode" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .mode" ] }
+vscode <- drawio: { event: "log", body: [ "Document loaded, patching prototypes" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "configure" }
+vscode -> drawio: { action: "configure", config: { compressXml: false, customFonts: [  ], presetColors: [  ], customColorSchemes: [  ], ... } }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "Document loaded, patching prototypes" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "configure" }
+vscode -> drawio: { action: "configure", config: { compressXml: false, customFonts: [  ], presetColors: [  ], customColorSchemes: [  ], ... } }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "init" }
+vscode -> drawio: { action: "load", xml: "", autosave: 1 }
+vscode -> drawio: { action: "export", format: "xml", actionId: "0" }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "linkSelectedNodeWithData" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "focus" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "menu-entries" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "LiveShare" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "load", pageVisible: true, translate: { x: 59, y: 0 }, bounds: { x: 59, y: 0, width: 0, ... }, ... }
+vscode <- drawio: { event: "export", pageVisible: true, translate: { x: 59, y: 0 }, bounds: { x: 59, y: 0, width: 0, ... }, ... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { event: "init" }
+vscode -> drawio: { action: "load", xml: "<mxfile host="65bd71144e">
+    <diagram id="VX0UnecWJ3"+..., ... }
+vscode -> drawio: { action: "export", format: "xml", actionId: "0" }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "linkSelectedNodeWithData" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "focus" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "menu-entries" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "LiveShare" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "load", pageVisible: false, translate: { x: 462, y: 850 }, bounds: { x: 476, y: 1059, ... }, ... }
+vscode <- drawio: { event: "export", pageVisible: false, translate: { x: 462, y: 850 }, bounds: { x: 476, y: 1059, ... }, ... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .scratchpad" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: set .drawio-config to {"language":"","cus"+... ] }
+vscode <- drawio: { event: "updateLocalStorage", newLocalStorage: { .drawio-config: "{"language":"","customFonts":[],"librari"+... } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 478, y: 118 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 432, y: 156 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 378, y: 199 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 325, y: 242 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 268, y: 285 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 208, y: 328 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 144, y: 367 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 87, y: 400 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 36, y: 427 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 898, y: 511 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 896, y: 511 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 889, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 881, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 871, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 859, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 846, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 831, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 818, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 805, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 792, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 779, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 769, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 763, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 760, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 761, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 763, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 792, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 850, y: 512 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 895, y: 510 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 54, y: 530 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 110, y: 527 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 154, y: 523 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 181, y: 519 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 203, y: 517 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 213, y: 516 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 215, y: 516 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 215, y: 524 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 215, y: 532 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 215, y: 537 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 215, y: 541 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 215, y: 546 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 213, y: 551 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 211, y: 557 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 209, y: 562 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 208, y: 566 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 208, y: 570 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 208, y: 571 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 572 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 573 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 574 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 578 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 582 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 586 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 587 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 588 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 589 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 591 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 592 } }
+vscode <- drawio: { event: "selectedCellsChanged", selectedCellIds: [ "18" ] }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 594 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 598 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 603 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 608 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 207, y: 609 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 206, y: 611 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 206, y: 613 } }
+vscode <- drawio: { event: "autosave", pageVisible: false, translate: { x: 462, y: 850 }, bounds: { x: 476, y: 1059, ... }, ... }
+vscode -> drawio: { action: "merge", xml: "<mxfile host="65bd71144e">
+    <diagram id="VX0UnecWJ"+..., ... }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 206, y: 613 } }
+vscode <- drawio: { event: "autosave", pageVisible: false, translate: { x: 1422, y: 850 }, bounds: { x: 1436, y: 1059, ... }, ... }
+vscode <- drawio: { event: "merge", message: { action: "merge", xml: "<mxfile host="65bd71144e">
+    <dia"+..., ... } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 206, y: 614 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 205, y: 619 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 204, y: 627 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 202, y: 639 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 200, y: 653 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 198, y: 668 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 196, y: 680 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 688 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 691 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 693 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "selectedCellsChanged", selectedCellIds: [  ] }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 692 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 691 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 690 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 689 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 688 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 687 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 686 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 194, y: 685 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "autosave", pageVisible: false, translate: { x: 462, y: 850 }, bounds: { x: 476, y: 1059, ... }, ... }
+vscode -> drawio: { action: "merge", xml: "<mxfile host="65bd71144e">
+    <diagram id="VX0UnecWJ"+..., ... }
+vscode <- drawio: { event: "autosave", pageVisible: false, translate: { x: 1422, y: 850 }, bounds: { x: 1436, y: 1059, ... }, ... }
+vscode <- drawio: { event: "merge", message: { action: "merge", xml: "<mxfile host="65bd71144e">
+    <dia"+..., ... } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 195, y: 685 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 211, y: 672 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 248, y: 645 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 305, y: 599 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 391, y: 517 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 472, y: 430 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 376, y: 124 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 174, y: 151 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 893, y: 179 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 878, y: 182 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 749, y: 205 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 676, y: 220 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 645, y: 224 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 638, y: 225 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 637, y: 225 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 626, y: 223 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 609, y: 220 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 578, y: 214 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 539, y: 204 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 486, y: 187 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 422, y: 162 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 361, y: 137 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 317, y: 121 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 274, y: 105 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 244, y: 92 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 217, y: 79 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 197, y: 67 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 185, y: 58 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 177, y: 52 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 173, y: 48 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 171, y: 47 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 171, y: 46 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: 239, y: 646 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 240, y: 646 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 242, y: 643 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 244, y: 642 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 245, y: 641 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 247, y: 639 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 252, y: 635 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 259, y: 627 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 267, y: 609 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 274, y: 570 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 278, y: 484 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 279, y: 371 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 273, y: 276 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 265, y: 195 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 265, y: 148 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 265, y: 127 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 265, y: 115 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 267, y: 111 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 268, y: 110 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 271, y: 105 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 277, y: 95 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 302, y: 109 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 320, y: 153 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 341, y: 207 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 364, y: 271 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 383, y: 323 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 397, y: 354 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 403, y: 367 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 403, y: 368 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 403, y: 369 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 403, y: 370 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 403, y: 371 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 403, y: 378 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 398, y: 391 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 394, y: 402 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 393, y: 405 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 393, y: 583 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 390, y: 568 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 378, y: 534 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 358, y: 475 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 328, y: 385 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 295, y: 286 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 273, y: 240 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 265, y: 221 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 263, y: 210 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 262, y: 203 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 262, y: 201 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 262, y: 200 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 262, y: 199 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 262, y: 192 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 263, y: 180 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 263, y: 179 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 3, y: 40 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 17, y: 78 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 31, y: 114 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 47, y: 154 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 64, y: 196 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 80, y: 234 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 96, y: 267 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 107, y: 289 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 111, y: 297 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 112, y: 298 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: -61, y: 88 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 42, y: 117 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 149, y: 147 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 248, y: 176 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 345, y: 204 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 407, y: 224 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 441, y: 234 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 454, y: 238 } }
+vscode <- drawio: { event: "selectedRectangleChanged" }
+vscode <- drawio: { event: "cursorChanged", position: { x: 455, y: 238 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 477, y: 238 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 581, y: 236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 792, y: 236 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 987, y: 238 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 1175, y: 209 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 699, y: 504 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: 700, y: 504 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: 203, y: 896 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "cursorChanged", position: { x: 204, y: 896 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 205, y: 896 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 226, y: 893 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 249, y: 891 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 259, y: 889 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 259, y: 888 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 258, y: 888 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 231, y: 887 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 157, y: 876 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 14, y: 827 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -112, y: 348 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -86, y: 344 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -62, y: 339 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -43, y: 336 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -29, y: 334 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -19, y: 333 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: -10, y: 332 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 0, y: 329 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 12, y: 327 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 19, y: 325 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 20, y: 325 } }
+vscode <- drawio: { event: "cursorChanged", position: { x: 20, y: 324 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }

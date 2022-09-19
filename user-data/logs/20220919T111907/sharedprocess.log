@@ -8,3 +8,11 @@
 [2022-09-19 11:19:39.197] [sharedprocess] [info] Extracting completed. hediet.vscode-drawio
 [2022-09-19 11:19:39.199] [sharedprocess] [info] Extension installed successfully: hediet.vscode-drawio
 [2022-09-19 11:30:06.888] [sharedprocess] [info] Worker process with pid 18040 terminated normally (type: fileWatcher, window: 1).
+[2022-09-19 11:30:07.543] [sharedprocess] [info] Starting worker process with pid 31256 (type: fileWatcher, window: 1).
+[2022-09-19 11:47:13.722] [sharedprocess] [info] Getting Manifest... 9beach.vscode-hanspell
+[2022-09-19 11:47:13.724] [sharedprocess] [info] Installing extension: 9beach.vscode-hanspell
+[2022-09-19 11:47:15.047] [sharedprocess] [info] Downloaded extension: 9beach.vscode-hanspell e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\user-data\CachedExtensionVSIXs\9beach.vscode-hanspell-0.6.5
+[2022-09-19 11:47:16.444] [sharedprocess] [info] Extracted extension to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\.6fe299ee-d997-4c87-8fc1-41204e8b0ce4: 9beach.vscode-hanspell
+[2022-09-19 11:47:16.452] [sharedprocess] [info] Renamed to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\9beach.vscode-hanspell-0.6.5
+[2022-09-19 11:47:16.455] [sharedprocess] [info] Extracting completed. 9beach.vscode-hanspell
+[2022-09-19 11:47:16.456] [sharedprocess] [info] Extension installed successfully: 9beach.vscode-hanspell
