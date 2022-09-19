@@ -1,0 +1,1 @@
+Portable VSCODE version management storage

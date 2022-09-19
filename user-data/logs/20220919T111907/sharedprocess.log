@@ -1,0 +1,10 @@
+[2022-09-19 11:19:09.372] [sharedprocess] [info] Starting worker process with pid 18040 (type: fileWatcher, window: 1).
+[2022-09-19 11:19:09.724] [sharedprocess] [info] Deleted from disk hancel.google-translate e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\hancel.google-translate-1.2.6
+[2022-09-19 11:19:29.568] [sharedprocess] [info] Getting Manifest... hediet.vscode-drawio
+[2022-09-19 11:19:29.571] [sharedprocess] [info] Installing extension: hediet.vscode-drawio
+[2022-09-19 11:19:32.179] [sharedprocess] [info] Downloaded extension: hediet.vscode-drawio e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\user-data\CachedExtensionVSIXs\hediet.vscode-drawio-1.6.4
+[2022-09-19 11:19:39.123] [sharedprocess] [info] Extracted extension to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\.d2d7ada0-c90d-483f-af6c-e5657e4e8f70: hediet.vscode-drawio
+[2022-09-19 11:19:39.194] [sharedprocess] [info] Renamed to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\hediet.vscode-drawio-1.6.4
+[2022-09-19 11:19:39.197] [sharedprocess] [info] Extracting completed. hediet.vscode-drawio
+[2022-09-19 11:19:39.199] [sharedprocess] [info] Extension installed successfully: hediet.vscode-drawio
+[2022-09-19 11:30:06.888] [sharedprocess] [info] Worker process with pid 18040 terminated normally (type: fileWatcher, window: 1).

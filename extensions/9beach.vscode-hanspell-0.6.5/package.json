@@ -1,0 +1,102 @@
+{
+	"name": "vscode-hanspell",
+	"displayName": "vscode-hanspell",
+	"description": "(주)다음과 부산대학교 인공지능연구실/(주)나라인포테크의 웹 서비스를 이용한 한글 맞춤법 검사기.",
+	"version": "0.6.5",
+	"icon": "images/hanspell.png",
+	"publisher": "9beach",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Linters",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:vscode-hanspell.spellCheckByAll",
+		"onCommand:vscode-hanspell.spellCheckByDAUM",
+		"onCommand:vscode-hanspell.spellCheckByPNU"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "vscode-hanspell.spellCheckByDAUM",
+				"title": "맞춤법 검사 (다음)"
+			},
+			{
+				"command": "vscode-hanspell.spellCheckByPNU",
+				"title": "맞춤법 검사 (부산대)"
+			},
+			{
+				"command": "vscode-hanspell.spellCheckByAll",
+				"title": "맞춤법 검사 (다음, 부산대)"
+			}
+		]
+	},
+	"main": "./out/extension.js",
+	"homepage": "https://github.com/9beach/vscode-hanspell",
+	"author": {
+		"name": "9beach",
+		"email": "9beach@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/9beach/vscode-hanspell.git"
+	},
+	"bugs": {
+		"url": "https://github.com/9beach/vscode-hanspell/issues"
+	},
+	"license": "MIT",
+	"keywords": [
+		"한스펠",
+		"한글",
+		"맞춤법",
+		"한국어",
+		"한국",
+		"Hangul",
+		"Spell Check",
+		"SpellCheck",
+		"Korean",
+		"VS Code",
+		"vscode",
+		"spell",
+		"Korea",
+		"extension"
+	],
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "^14.17.5",
+		"@types/vscode": "^1.58.0",
+		"@typescript-eslint/eslint-plugin": "^4.26.0",
+		"@typescript-eslint/parser": "^4.26.0",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"@types/minimatch": "^3.0.5",
+		"hanspell": "^0.9.6"
+	},
+	"__metadata": {
+		"id": "5fefab6d-b501-44e2-a94c-2d27cb4fb9bc",
+		"publisherId": "14261c2d-3566-430f-82d3-d79f2a52c1bf",
+		"publisherDisplayName": "Hyunrae Cho",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1663555636443
+	}
+}
