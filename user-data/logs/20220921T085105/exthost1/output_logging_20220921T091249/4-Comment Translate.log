@@ -1,0 +1,47 @@
+e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app
+No grammar found for scope source.scala
+No grammar found for scope source.erlang
+No grammar found for scope source.elixir
+No grammar found for scope source.postscript
+No grammar found for scope source.c++
+No grammar found for scope source.js.jquery
+No grammar found for scope source.asm
+No grammar found for scope source.x86
+No grammar found for scope source.x86_64
+No grammar found for scope source.arm
+No grammar found for scope source.glsl
+No grammar found for scope text.html.javadoc
+No grammar found for scope source.sass
+No grammar found for scope source.less
+No grammar found for scope source.stylus
+No grammar found for scope source.applescript
+No grammar found for scope text.html.textile
+No grammar found for scope source.asy
+No grammar found for scope source.haskell
+No grammar found for scope source.asymptote
+No grammar found for scope source.dot
+No grammar found for scope source.gnuplot
+[Error - 오전 9:12:59] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: 105,110,118,97,108,105,100,32,112,97,116,116,101,114,110,32,105,110,32,108,111,111,107,45,98,101,104,105,110,100
+  Code: -32603 
+[Error - 오전 9:20:38] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 9:33:27] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 9:33:28] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 9:33:29] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 11:25:11] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 11:42:29] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 11:44:52] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 

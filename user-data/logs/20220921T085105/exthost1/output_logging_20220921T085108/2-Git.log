@@ -1,0 +1,5 @@
+[2022-09-20T23:51:09.646Z] Log level: Info
+[2022-09-20T23:51:09.651Z] [info] Validating found git in: C:\Program Files\Git\cmd\git.exe
+[2022-09-20T23:51:09.776Z] [info] Using git 2.37.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+[2022-09-20T23:51:09.989Z] > git rev-parse --show-toplevel [185ms]
+[2022-09-20T23:51:09.989Z] fatal: not a git repository (or any of the parent directories): .git

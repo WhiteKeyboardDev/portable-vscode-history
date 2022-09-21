@@ -1,0 +1,17 @@
+[2022-09-21T03:01:23.406Z] Log level: Info
+[2022-09-21T03:01:23.410Z] [info] Validating found git in: C:\Program Files\Git\cmd\git.exe
+[2022-09-21T03:01:23.478Z] [info] Using git 2.37.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+[2022-09-21T03:01:23.579Z] > git rev-parse --show-toplevel [86ms]
+[2022-09-21T03:01:23.579Z] fatal: this operation must be run in a work tree
+[2022-09-21T03:01:23.696Z] > git rev-parse --show-toplevel [102ms]
+[2022-09-21T03:01:23.696Z] fatal: this operation must be run in a work tree
+[2022-09-21T03:01:23.807Z] > git rev-parse --show-toplevel [98ms]
+[2022-09-21T03:01:23.807Z] fatal: this operation must be run in a work tree
+[2022-09-21T03:01:23.916Z] > git rev-parse --show-toplevel [95ms]
+[2022-09-21T03:01:23.916Z] fatal: this operation must be run in a work tree
+[2022-09-21T03:01:24.025Z] > git rev-parse --show-toplevel [92ms]
+[2022-09-21T03:01:24.025Z] fatal: this operation must be run in a work tree
+[2022-09-21T03:01:24.121Z] > git rev-parse --show-toplevel [84ms]
+[2022-09-21T03:01:24.121Z] fatal: this operation must be run in a work tree
+[2022-09-21T03:01:24.262Z] > git rev-parse --show-toplevel [74ms]
+[2022-09-21T03:01:24.262Z] fatal: this operation must be run in a work tree

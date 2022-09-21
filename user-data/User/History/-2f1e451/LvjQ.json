@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "none",
+    "vscodeGoogleTranslate.HoverTranslations": true,
+    "vscodeGoogleTranslate.preferredLanguage": "English",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false
+}

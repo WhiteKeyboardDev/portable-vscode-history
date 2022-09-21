@@ -1,0 +1,9 @@
+[Trace 00:12:58.969] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Trace 00:12:58.972] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Debug 00:12:58.978] TableOfContentsProvider: create - file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Debug 00:12:58.979] LinkProvider: compute - file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Debug 00:13:00.473] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Trace 00:14:07.820] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Trace 02:24:46.392] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Debug 02:24:46.559] MdFoldingProvider: provideFoldingRanges - file:///e%3A/003-Git/002-GitLab/doc/README.md
+[Trace 02:24:46.964] Server: connection.languages.diagnostics.on: file:///e%3A/003-Git/002-GitLab/doc/README.md
