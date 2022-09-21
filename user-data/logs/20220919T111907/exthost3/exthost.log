@@ -1,0 +1,24 @@
+[2022-09-19 13:43:31.330] [exthost] [info] Extension host with pid 26632 started
+[2022-09-19 13:43:31.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-09-19 13:43:31.399] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-19 13:43:31.402] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-19 13:43:31.405] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-19 13:43:31.409] [exthost] [info] ExtensionService#_doActivateExtension funkyremi.vscode-google-translate, startup: true, activationEvent: '*'
+[2022-09-19 13:43:31.603] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-19 13:43:31.618] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-19 13:43:31.653] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-09-19 13:43:31.834] [exthost] [info] Eager extensions activated
+[2022-09-19 13:43:31.838] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 13:43:31.844] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 13:43:31.847] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl-recommender, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 13:43:32.525] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-19 13:43:32.534] [exthost] [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new C (e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:85:43375)
+	at i._remoteCall (e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:95:13746)
+	at R.<computed>.U.charCodeAt.R.<computed> (e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:95:10301)
+	at M.resolveProxy (e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:96:21095)
+	at Object.resolveProxy (e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:106:60284)
+	at useProxySettings (e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\node_modules.asar\vscode-proxy-agent\out\index.js:159:16)
+	at e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\node_modules.asar\vscode-proxy-agent\out\index.js:107:13
+	at e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app\node_modules.asar\vscode-proxy-agent\out\index.js:336:13 
+[2022-09-19 13:43:32.539] [exthost] [info] Extension host with pid 26632 exiting with code 0

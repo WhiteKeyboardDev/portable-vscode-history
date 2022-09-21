@@ -1,0 +1,49 @@
+[2022-09-20T23:44:06.443Z] Log level: Info
+[2022-09-20T23:44:06.503Z] [info] Validating found git in: C:\Program Files\Git\cmd\git.exe
+[2022-09-20T23:44:06.901Z] [info] Using git 2.37.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+[2022-09-20T23:44:07.420Z] > git rev-parse --show-toplevel [508ms]
+[2022-09-20T23:44:07.489Z] > git rev-parse --git-dir --git-common-dir [58ms]
+[2022-09-20T23:44:07.492Z] [info] Open repository: e:\003-Git\002-GitLab\doc
+[2022-09-20T23:44:07.618Z] > git status -z -uall [115ms]
+[2022-09-20T23:44:07.678Z] > git symbolic-ref --short HEAD [51ms]
+[2022-09-20T23:44:07.744Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [56ms]
+[2022-09-20T23:44:07.812Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [56ms]
+[2022-09-20T23:44:07.815Z] > git remote --verbose [50ms]
+[2022-09-20T23:44:07.879Z] > git config --get commit.template [51ms]
+[2022-09-20T23:44:07.901Z] > git ls-files --stage -- E:\003-Git\002-GitLab\doc\VS_Code\common\text.txt [51ms]
+[2022-09-20T23:44:07.933Z] > git show --textconv :VS_Code/common/text.txt [92ms]
+[2022-09-20T23:44:07.964Z] > git cat-file -s 4164667b3d4f077e61e3e0e9283abd85d91ecdd2 [53ms]
+[2022-09-20T23:44:07.978Z] > git status -z -uall [89ms]
+[2022-09-20T23:44:08.040Z] > git symbolic-ref --short HEAD [53ms]
+[2022-09-20T23:44:08.082Z] > git check-ignore -v -z --stdin [61ms]
+[2022-09-20T23:44:08.111Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+[2022-09-20T23:44:08.177Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [57ms]
+[2022-09-20T23:44:08.184Z] > git remote --verbose [54ms]
+[2022-09-20T23:44:08.250Z] > git config --get commit.template [54ms]
+[2022-09-20T23:44:42.747Z] > git rev-parse --show-toplevel [84ms]
+[2022-09-20T23:44:42.747Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:46:06.756Z] > git check-ignore -v -z --stdin [53ms]
+[2022-09-20T23:46:08.141Z] > git rev-parse --show-toplevel [73ms]
+[2022-09-20T23:46:08.141Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:46:09.137Z] > git rev-parse --show-toplevel [70ms]
+[2022-09-20T23:46:09.137Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:46:09.525Z] > git ls-files --stage -- E:\003-Git\002-GitLab\doc\VS_Code\common\text.txt [52ms]
+[2022-09-20T23:46:09.541Z] > git show --textconv :VS_Code/common/text.txt [78ms]
+[2022-09-20T23:46:09.586Z] > git cat-file -s 4164667b3d4f077e61e3e0e9283abd85d91ecdd2 [51ms]
+[2022-09-20T23:46:11.298Z] > git rev-parse --show-toplevel [70ms]
+[2022-09-20T23:46:11.298Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:46:14.205Z] > git status -z -uall [90ms]
+[2022-09-20T23:46:14.253Z] > git rev-parse --show-toplevel [77ms]
+[2022-09-20T23:46:14.253Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:46:14.267Z] > git symbolic-ref --short HEAD [52ms]
+[2022-09-20T23:46:14.331Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+[2022-09-20T23:46:14.403Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [62ms]
+[2022-09-20T23:46:14.410Z] > git remote --verbose [59ms]
+[2022-09-20T23:46:14.477Z] > git config --get commit.template [55ms]
+[2022-09-20T23:46:33.203Z] > git status -z -uall [80ms]
+[2022-09-20T23:46:33.262Z] > git symbolic-ref --short HEAD [50ms]
+[2022-09-20T23:46:33.325Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [53ms]
+[2022-09-20T23:46:33.389Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [55ms]
+[2022-09-20T23:46:33.394Z] > git remote --verbose [50ms]
+[2022-09-20T23:46:33.453Z] > git config --get commit.template [49ms]
+[2022-09-20T23:46:36.068Z] > git check-ignore -v -z --stdin [50ms]

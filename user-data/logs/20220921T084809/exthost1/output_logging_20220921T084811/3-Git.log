@@ -1,0 +1,19 @@
+[2022-09-20T23:48:19.641Z] Log level: Info
+[2022-09-20T23:48:19.646Z] [info] Validating found git in: C:\Program Files\Git\cmd\git.exe
+[2022-09-20T23:48:19.710Z] [info] Using git 2.37.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+[2022-09-20T23:48:27.315Z] > git rev-parse --show-toplevel [69ms]
+[2022-09-20T23:48:27.316Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:48:33.843Z] > git rev-parse --show-toplevel [71ms]
+[2022-09-20T23:48:33.843Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:48:34.954Z] > git rev-parse --show-toplevel [70ms]
+[2022-09-20T23:48:34.954Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:48:35.515Z] > git rev-parse --show-toplevel [69ms]
+[2022-09-20T23:48:35.515Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:48:37.663Z] > git rev-parse --show-toplevel [75ms]
+[2022-09-20T23:48:37.663Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:48:51.004Z] > git rev-parse --show-toplevel [74ms]
+[2022-09-20T23:48:51.004Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:48:52.463Z] > git rev-parse --show-toplevel [72ms]
+[2022-09-20T23:48:52.463Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-20T23:49:01.999Z] > git rev-parse --show-toplevel [72ms]
+[2022-09-20T23:49:01.999Z] fatal: not a git repository (or any of the parent directories): .git

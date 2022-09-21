@@ -1,0 +1,4 @@
+[2022-09-21 08:51:13.640] [ptyhost] [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+[2022-09-21 08:51:13.643] [ptyhost] [info] Persistent process reconnection "1"
+[2022-09-21 08:51:13.648] [ptyhost] [warning] Shell integration cannot be enabled for executable "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" and args undefined
+[2022-09-21 08:51:13.768] [ptyhost] [info] Persistent process "1": Replaying 555 chars and 1 size events

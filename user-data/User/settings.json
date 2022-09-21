@@ -3,6 +3,6 @@
     "workbench.startupEditor": "none",
     "vscodeGoogleTranslate.HoverTranslations": true,
     "vscodeGoogleTranslate.preferredLanguage": "English",
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.statusBar.visible": false
 }

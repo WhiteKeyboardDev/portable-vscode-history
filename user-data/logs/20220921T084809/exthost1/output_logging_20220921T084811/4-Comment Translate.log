@@ -1,0 +1,13 @@
+e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\resources\app
+[Error - 오전 8:50:01] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 8:50:02] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 8:50:15] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 
+[Error - 오전 8:50:16] Request textDocument/hover failed.
+  Message: Request textDocument/hover failed with message: Request failed with status code 403
+  Code: -32603 

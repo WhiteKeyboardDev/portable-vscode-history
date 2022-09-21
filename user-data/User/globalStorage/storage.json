@@ -18,7 +18,7 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 30,
-            "activityBarWidth": 0,
+            "activityBarWidth": 48,
             "sideBarWidth": 256,
             "statusBarHeight": 0,
             "windowBorder": false
@@ -26,12 +26,12 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///e%3A/003-Git/002-GitLab/doc/VS_Code",
-            "backupPath": "E:\\001-Dev\\001-IDE\\Visual Studio Code\\001-Potable\\VSCode-win32-x64-1.71.2\\data\\user-data\\Backups\\ad68175c349115c7d84a45be2e3b73a4",
+            "folder": "file:///e%3A/",
+            "backupPath": "E:\\001-Dev\\001-IDE\\Visual Studio Code\\001-Potable\\VSCode-win32-x64-1.71.2\\data\\user-data\\Backups\\fc14fe6eb4a171170babcba4da7efaa2",
             "uiState": {
                 "mode": 0,
-                "x": 358,
-                "y": 145,
+                "x": 285,
+                "y": 225,
                 "width": 1024,
                 "height": 768
             }

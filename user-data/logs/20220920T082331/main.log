@@ -1,0 +1,33 @@
+[2022-09-20 08:23:31.275] [main] [info] update#setState idle
+[2022-09-20 08:23:31.393] [main] [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+[2022-09-20 08:23:36.042] [main] [info] Starting extension host with pid 20736 (fork() took 16 ms).
+[2022-09-20 08:23:59.299] [main] [warning] updateWindowsJumpList#setJumpList unexpected result: customCategoryAccessDeniedError
+[2022-09-20 08:24:01.284] [main] [info] update#setState checking for updates
+[2022-09-20 08:24:01.362] [main] [info] update#setState idle
+[2022-09-20 09:24:01.286] [main] [info] update#setState checking for updates
+[2022-09-20 09:24:01.524] [main] [info] update#setState idle
+[2022-09-20 09:58:25.072] [main] [info] Enabling inspect port on extension host with pid 20736.
+[2022-09-20 10:24:03.161] [main] [info] update#setState checking for updates
+[2022-09-20 10:24:03.397] [main] [info] update#setState idle
+[2022-09-20 11:24:03.163] [main] [info] update#setState checking for updates
+[2022-09-20 11:24:03.405] [main] [info] update#setState idle
+[2022-09-20 12:24:03.165] [main] [info] update#setState checking for updates
+[2022-09-20 12:24:03.426] [main] [info] update#setState idle
+[2022-09-20 13:24:03.167] [main] [info] update#setState checking for updates
+[2022-09-20 13:24:03.418] [main] [info] update#setState idle
+[2022-09-20 14:24:03.167] [main] [info] update#setState checking for updates
+[2022-09-20 14:24:03.433] [main] [info] update#setState idle
+[2022-09-20 15:24:03.169] [main] [info] update#setState checking for updates
+[2022-09-20 15:24:03.413] [main] [info] update#setState idle
+[2022-09-20 16:24:03.170] [main] [info] update#setState checking for updates
+[2022-09-20 16:24:03.412] [main] [info] update#setState idle
+[2022-09-20 17:24:03.171] [main] [info] update#setState checking for updates
+[2022-09-20 17:24:03.399] [main] [info] update#setState idle
+[2022-09-20 18:24:03.172] [main] [info] update#setState checking for updates
+[2022-09-20 18:24:03.452] [main] [info] update#setState idle
+[2022-09-20 19:24:03.174] [main] [info] update#setState checking for updates
+[2022-09-20 19:24:03.412] [main] [info] update#setState idle
+[2022-09-20 20:24:03.175] [main] [info] update#setState checking for updates
+[2022-09-20 20:24:03.455] [main] [info] update#setState idle
+[2022-09-20 21:14:20.288] [main] [info] Waiting for extension host with pid 20736 to exit.
+[2022-09-20 21:14:20.296] [main] [info] Extension host with pid 20736 exited with code: 0, signal: null.

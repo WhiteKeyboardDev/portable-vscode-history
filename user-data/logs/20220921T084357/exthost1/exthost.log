@@ -1,0 +1,17 @@
+[2022-09-21 08:44:03.848] [exthost] [info] Extension host with pid 20564 started
+[2022-09-21 08:44:03.848] [exthost] [info] Skipping acquiring lock for e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\user-data\User\workspaceStorage\bcd19d1958b64a75a20dc64c13fd875b.
+[2022-09-21 08:44:03.878] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-09-21 08:44:04.276] [exthost] [info] ExtensionService#_doActivateExtension hediet.vscode-drawio, startup: false, activationEvent: 'onCustomEditor:hediet.vscode-drawio-text'
+[2022-09-21 08:44:04.424] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-21 08:44:04.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-21 08:44:04.464] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-21 08:44:04.548] [exthost] [info] ExtensionService#_doActivateExtension funkyremi.vscode-google-translate, startup: true, activationEvent: '*'
+[2022-09-21 08:44:05.563] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-21 08:44:06.260] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-21 08:44:06.550] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-09-21 08:44:06.913] [exthost] [info] Eager extensions activated
+[2022-09-21 08:44:06.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-21 08:44:07.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-21 08:44:07.155] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl-recommender, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-21 08:48:06.988] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-21 08:48:06.996] [exthost] [info] Extension host with pid 20564 exiting with code 0

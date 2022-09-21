@@ -1,0 +1,65 @@
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .mode" ] }
+vscode <- drawio: { event: "log", body: [ "Document loaded, patching prototypes" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "configure" }
+vscode -> drawio: { action: "configure", config: { compressXml: false, customFonts: [  ], presetColors: [  ], customColorSchemes: [  ], ... } }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "init" }
+vscode -> drawio: { action: "load", xml: "<mxfile host="65bd71144e" linkTarget="_top" scale="1" b"+..., ... }
+vscode -> drawio: { action: "export", format: "xml", actionId: "0" }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "linkSelectedNodeWithData" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "focus" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "menu-entries" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "LiveShare" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "load", pageVisible: true, translate: { x: 1422, y: 850 }, bounds: { x: 1456.5, y: 905, ... }, ... }
+vscode <- drawio: { event: "export", pageVisible: true, translate: { x: 1422, y: 850 }, bounds: { x: 1456.5, y: 905, ... }, ... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { event: "cursorChanged", position: { x: 306, y: 156 } }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .mode" ] }
+vscode <- drawio: { event: "log", body: [ "Document loaded, patching prototypes" ] }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "configure" }
+vscode -> drawio: { action: "configure", config: { compressXml: false, customFonts: [  ], presetColors: [  ], customColorSchemes: [  ], ... } }
+vscode <- drawio: { event: "log", body: [ "localStorage: get .drawio-config" ] }
+vscode <- drawio: { event: "init" }
+vscode -> drawio: { action: "load", xml: "<mxfile host="65bd71144e">
+    <diagram id="VX0UnecWJ3"+..., ... }
+vscode -> drawio: { action: "export", format: "xml", actionId: "0" }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "linkSelectedNodeWithData" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "focus" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "menu-entries" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "pluginLoaded", pluginId: "LiveShare" }
+vscode -> drawio: { action: "setNodeSelectionEnabled", enabled: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "load", pageVisible: false, translate: { x: 1422, y: 850 }, bounds: { x: 1436, y: 1059, ... }, ... }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "export", pageVisible: false, translate: { x: 1422, y: 850 }, bounds: { x: 1436, y: 1059, ... }, ... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { error: "unknownMessage", data: "{"action":"setNodeSelectionEnabled","enabled":"+... }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "focusChanged", hasFocus: true }
+vscode <- drawio: { event: "focusChanged", hasFocus: false }
+vscode <- drawio: { event: "cursorChanged", position: { x: 689, y: 414 } }
