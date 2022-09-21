@@ -16,3 +16,5 @@
 [2022-09-19 11:47:16.452] [sharedprocess] [info] Renamed to e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data\extensions\9beach.vscode-hanspell-0.6.5
 [2022-09-19 11:47:16.455] [sharedprocess] [info] Extracting completed. 9beach.vscode-hanspell
 [2022-09-19 11:47:16.456] [sharedprocess] [info] Extension installed successfully: 9beach.vscode-hanspell
+[2022-09-19 13:43:30.938] [sharedprocess] [info] Starting worker process with pid 32252 (type: fileWatcher, window: 3).
+[2022-09-19 13:43:32.541] [sharedprocess] [info] Worker process with pid 32252 terminated normally (type: fileWatcher, window: 3).

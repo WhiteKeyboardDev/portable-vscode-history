@@ -1,0 +1,150 @@
+[2022-09-21T03:01:45.816Z] Log level: Info
+[2022-09-21T03:01:45.819Z] [info] Validating found git in: C:\Program Files\Git\cmd\git.exe
+[2022-09-21T03:01:45.888Z] [info] Using git 2.37.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+[2022-09-21T03:01:45.978Z] > git rev-parse --show-toplevel [76ms]
+[2022-09-21T03:01:45.978Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.064Z] > git rev-parse --show-toplevel [73ms]
+[2022-09-21T03:01:46.064Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.147Z] > git rev-parse --show-toplevel [72ms]
+[2022-09-21T03:01:46.147Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.228Z] > git rev-parse --show-toplevel [71ms]
+[2022-09-21T03:01:46.228Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.316Z] > git rev-parse --show-toplevel [73ms]
+[2022-09-21T03:01:46.316Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.399Z] > git rev-parse --show-toplevel [73ms]
+[2022-09-21T03:01:46.399Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.482Z] > git rev-parse --show-toplevel [72ms]
+[2022-09-21T03:01:46.482Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.563Z] > git rev-parse --show-toplevel [70ms]
+[2022-09-21T03:01:46.563Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.648Z] > git rev-parse --show-toplevel [74ms]
+[2022-09-21T03:01:46.648Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.734Z] > git rev-parse --show-toplevel [75ms]
+[2022-09-21T03:01:46.734Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:46.818Z] > git rev-parse --show-toplevel [72ms]
+[2022-09-21T03:01:46.818Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:52.265Z] > git rev-parse --show-toplevel [108ms]
+[2022-09-21T03:01:52.265Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:53.854Z] > git rev-parse --show-toplevel [74ms]
+[2022-09-21T03:01:53.854Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:54.567Z] > git rev-parse --show-toplevel [71ms]
+[2022-09-21T03:01:54.567Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:56.942Z] > git rev-parse --show-toplevel [72ms]
+[2022-09-21T03:01:56.942Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:57.949Z] > git rev-parse --show-toplevel [77ms]
+[2022-09-21T03:01:57.949Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:01:58.705Z] > git rev-parse --show-toplevel [71ms]
+[2022-09-21T03:01:58.705Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:02:00.519Z] > git rev-parse --show-toplevel [74ms]
+[2022-09-21T03:02:00.519Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:02:06.088Z] > git rev-parse --show-toplevel [72ms]
+[2022-09-21T03:02:06.088Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:02:10.049Z] > git rev-parse --show-toplevel [70ms]
+[2022-09-21T03:02:10.049Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:02:11.417Z] > git rev-parse --show-toplevel [79ms]
+[2022-09-21T03:02:11.417Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-21T03:08:33.582Z] > git rev-parse --show-toplevel [51ms]
+[2022-09-21T03:08:33.644Z] > git rev-parse --git-dir --git-common-dir [51ms]
+[2022-09-21T03:08:33.648Z] [info] Open repository: e:\003-Git\001-Github\portable-vscode-history
+[2022-09-21T03:08:34.368Z] > git status -z -uall [708ms]
+[2022-09-21T03:08:34.431Z] > git symbolic-ref --short HEAD [52ms]
+[2022-09-21T03:08:34.498Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [55ms]
+[2022-09-21T03:08:34.567Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [58ms]
+[2022-09-21T03:08:34.573Z] > git remote --verbose [53ms]
+[2022-09-21T03:08:34.638Z] > git config --get commit.template [50ms]
+[2022-09-21T03:08:35.088Z] > git status -z -uall [438ms]
+[2022-09-21T03:08:35.149Z] > git symbolic-ref --short HEAD [51ms]
+[2022-09-21T03:08:35.214Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [55ms]
+[2022-09-21T03:08:35.280Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [56ms]
+[2022-09-21T03:08:35.287Z] > git remote --verbose [53ms]
+[2022-09-21T03:08:35.348Z] > git config --get commit.template [50ms]
+[2022-09-21T03:08:36.225Z] > git rev-parse --show-toplevel [51ms]
+[2022-09-21T03:08:36.288Z] > git rev-parse --git-dir --git-common-dir [52ms]
+[2022-09-21T03:08:36.290Z] [info] Open repository: e:\003-Git\002-GitLab\doc
+[2022-09-21T03:08:36.387Z] > git status -z -uall [85ms]
+[2022-09-21T03:08:36.455Z] > git symbolic-ref --short HEAD [58ms]
+[2022-09-21T03:08:36.522Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+[2022-09-21T03:08:36.590Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [57ms]
+[2022-09-21T03:08:36.598Z] > git remote --verbose [54ms]
+[2022-09-21T03:08:36.665Z] > git config --get commit.template [53ms]
+[2022-09-21T03:08:39.510Z] > git rev-parse --show-toplevel [51ms]
+[2022-09-21T03:08:39.573Z] > git rev-parse --git-dir --git-common-dir [52ms]
+[2022-09-21T03:08:39.575Z] [info] Open repository: e:\003-Git\000-Company\001-SAC331\web
+[2022-09-21T03:08:39.814Z] > git status -z -uall [228ms]
+[2022-09-21T03:08:39.876Z] > git symbolic-ref --short HEAD [52ms]
+[2022-09-21T03:08:39.942Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/3.3.1 refs/remotes/3.3.1 [56ms]
+[2022-09-21T03:08:40.009Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [57ms]
+[2022-09-21T03:08:40.016Z] > git remote --verbose [53ms]
+[2022-09-21T03:08:40.079Z] > git config --get commit.template [51ms]
+[2022-09-21T03:08:43.536Z] > git rev-parse --show-toplevel [51ms]
+[2022-09-21T03:08:43.600Z] > git rev-parse --git-dir --git-common-dir [54ms]
+[2022-09-21T03:08:43.602Z] [info] Open repository: e:\003-Git\000-Company\001-SAC331-minaSSHD\apachesshd
+[2022-09-21T03:08:43.749Z] > git status -z -uall [136ms]
+[2022-09-21T03:08:43.813Z] > git symbolic-ref --short HEAD [53ms]
+[2022-09-21T03:08:43.883Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+[2022-09-21T03:08:43.955Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [62ms]
+[2022-09-21T03:08:43.962Z] > git remote --verbose [59ms]
+[2022-09-21T03:08:44.026Z] > git config --get commit.template [52ms]
+[2022-09-21T03:08:50.769Z] > git rev-parse --show-toplevel [52ms]
+[2022-09-21T03:08:50.829Z] > git rev-parse --git-dir --git-common-dir [50ms]
+[2022-09-21T03:08:50.831Z] [info] Open repository: e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data
+[2022-09-21T03:08:51.041Z] > git status -z -uall [200ms]
+[2022-09-21T03:08:51.104Z] > git symbolic-ref --short HEAD [53ms]
+[2022-09-21T03:08:51.175Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [60ms]
+[2022-09-21T03:08:51.247Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [61ms]
+[2022-09-21T03:08:51.254Z] > git remote --verbose [57ms]
+[2022-09-21T03:08:51.332Z] > git config --get commit.template [53ms]
+[2022-09-21T03:08:53.446Z] > git rev-parse --show-toplevel [52ms]
+[2022-09-21T03:08:53.514Z] > git rev-parse --git-dir --git-common-dir [58ms]
+[2022-09-21T03:08:53.515Z] [info] Open repository: e:\003-Git\000-Company\001-SAC331\proxy
+[2022-09-21T03:08:53.944Z] > git status -z -uall [417ms]
+[2022-09-21T03:08:54.006Z] > git symbolic-ref --short HEAD [52ms]
+[2022-09-21T03:08:54.076Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/3.3.1 refs/remotes/3.3.1 [60ms]
+[2022-09-21T03:08:54.145Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [58ms]
+[2022-09-21T03:08:54.154Z] > git remote --verbose [56ms]
+[2022-09-21T03:08:54.221Z] > git config --get commit.template [53ms]
+[2022-09-21T03:08:59.648Z] > git status -z -uall [97ms]
+[2022-09-21T03:08:59.691Z] > git status -z -uall [118ms]
+[2022-09-21T03:08:59.720Z] > git symbolic-ref --short HEAD [60ms]
+[2022-09-21T03:08:59.763Z] > git symbolic-ref --short HEAD [60ms]
+[2022-09-21T03:08:59.797Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+[2022-09-21T03:08:59.827Z] > git status -z -uall [265ms]
+[2022-09-21T03:08:59.840Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+[2022-09-21T03:08:59.874Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [66ms]
+[2022-09-21T03:08:59.885Z] > git remote --verbose [65ms]
+[2022-09-21T03:08:59.903Z] > git symbolic-ref --short HEAD [64ms]
+[2022-09-21T03:08:59.922Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [70ms]
+[2022-09-21T03:08:59.929Z] > git remote --verbose [63ms]
+[2022-09-21T03:08:59.956Z] > git config --get commit.template [57ms]
+[2022-09-21T03:08:59.977Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/3.3.1 refs/remotes/3.3.1 [62ms]
+[2022-09-21T03:09:00.003Z] > git config --get commit.template [61ms]
+[2022-09-21T03:09:00.010Z] > git status -z -uall [424ms]
+[2022-09-21T03:09:00.049Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [60ms]
+[2022-09-21T03:09:00.055Z] > git remote --verbose [55ms]
+[2022-09-21T03:09:00.077Z] > git symbolic-ref --short HEAD [56ms]
+[2022-09-21T03:09:00.120Z] > git config --get commit.template [52ms]
+[2022-09-21T03:09:00.145Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/3.3.1 refs/remotes/3.3.1 [57ms]
+[2022-09-21T03:09:00.213Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [57ms]
+[2022-09-21T03:09:00.219Z] > git remote --verbose [53ms]
+[2022-09-21T03:09:00.285Z] > git config --get commit.template [51ms]
+[2022-09-21T05:04:19.399Z] > git rev-parse --show-toplevel [58ms]
+[2022-09-21T05:04:19.467Z] > git rev-parse --git-dir --git-common-dir [56ms]
+[2022-09-21T05:04:19.468Z] [info] Open repository: e:\001-Dev\001-IDE\Visual Studio Code\001-Potable\VSCode-win32-x64-1.71.2\data
+[2022-09-21T05:04:19.660Z] > git status -z -uall [181ms]
+[2022-09-21T05:04:19.725Z] > git symbolic-ref --short HEAD [54ms]
+[2022-09-21T05:04:19.795Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [58ms]
+[2022-09-21T05:04:19.866Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [59ms]
+[2022-09-21T05:04:19.876Z] > git remote --verbose [58ms]
+[2022-09-21T05:04:19.948Z] > git config --get commit.template [52ms]
+[2022-09-21T05:10:48.261Z] > git status -z -uall [236ms]
+[2022-09-21T05:10:48.329Z] > git symbolic-ref --short HEAD [57ms]
+[2022-09-21T05:10:48.404Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [63ms]
+[2022-09-21T05:10:48.478Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [63ms]
+[2022-09-21T05:10:48.485Z] > git remote --verbose [58ms]
+[2022-09-21T05:10:48.556Z] > git config --get commit.template [55ms]
+[2022-09-21T05:10:48.558Z] > git status -z -uall [547ms]
+[2022-09-21T05:10:48.624Z] > git symbolic-ref --short HEAD [55ms]
+[2022-09-21T05:10:48.693Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [58ms]
+[2022-09-21T05:10:48.765Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [61ms]
+[2022-09-21T05:10:48.771Z] > git remote --verbose [56ms]
+[2022-09-21T05:10:48.841Z] > git config --get commit.template [57ms]
